@@ -11,6 +11,7 @@ print(im)
 
 
 
+
 ### part2 - sperating the channels and showing them in subplots
 im = imread("robin.jpeg")
 fig, axes = plt.subplots(1,3)
