@@ -8,3 +8,4 @@ We are going to talk about some mice and space and have a lot of fun learning ab
 
 * **Week1:** We talked about matplotlib and how to show images.
 
+* **Week2:**  How to download the dataset, show samples and read metadata table
