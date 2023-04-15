@@ -6,7 +6,7 @@ from matplotlib.image import imread
 
 table = pd.read_csv("../MiceNasa/train/meta.csv")
 
-# print(table.head())
+print(table.head())
 
 #### accessing different colomns in pandas
 i = 50
