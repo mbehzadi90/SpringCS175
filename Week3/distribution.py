@@ -18,8 +18,8 @@ print(ratio)
 
 
 
-#### distribution considering dose_Gy
-table.groupby('particle_type')['dose_Gy'].plot(kind='kde')
+# #### distribution considering dose_Gy
+table.groupby('particle_type')['dose_Gy'].plot(kind='hist')
 plt.xlabel('dose_Gy')
 plt.legend(['Fe','X-ray'])
 plt.show()
@@ -37,8 +37,14 @@ plt.show()
 
 table['hr_post_exposure'].plot(kind='hist')
 plt.xlabel('Hr Post Exposure')
+plt.show()
+
+
+table['dose_Gy'].plot(kind='hist')
+plt.xlabel('Dose GY')
 #plt.legend(['Fe','X-ray'])
 plt.show()
+
 
 
 
